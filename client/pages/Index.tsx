@@ -22,7 +22,7 @@ export default function Index() {
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#features" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">功能</a>
+            <a href="#features" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">���能</a>
             <a href="#download" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">下载</a>
             <a href="#contact" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联系</a>
           </nav>
@@ -67,7 +67,7 @@ export default function Index() {
       <section className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto text-center">
           <div className="mb-12">
-            <div className="w-48 h-48 mx-auto bg-white rounded-3xl shadow-xl mb-8 flex items-center justify-center transform hover:scale-105 transition-transform p-4">
+            <div className="w-80 h-80 mx-auto mb-8 flex items-center justify-center transform hover:scale-105 transition-transform">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F47bb180e269c47b1917ecf870745f17c?format=webp&width=800"
                 alt="排版小动物工作场景"
@@ -155,7 +155,7 @@ export default function Index() {
                 让创作变得有趣
               </h2>
               <p className="text-lg text-tinytype-brown/70 mb-8">
-                排版小动物提供丰富的模板和工具，帮助你快速创建专业级的排版作品。无论是海报、卡片还是社交媒体内容，都能轻松��成。
+                排版小动物提供丰富的模板和工具，帮助你快速创建专业级的排版作品。无论是海报、卡片还是社交媒体内容，都能轻松完成。
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
