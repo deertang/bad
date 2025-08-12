@@ -144,7 +144,7 @@ export default function Index() {
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80">全世界���地的小动物，带来有他们温度和风格模板</span>
+                  <span className="text-tinytype-brown/80">全世界各地的小动物，带来有他们温度和风格模板</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
@@ -176,7 +176,7 @@ export default function Index() {
             </div>
             <div className="flex justify-center gap-6">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F0c7db44b782b464bb97cd2591959e948?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fa9e2079bb8524a6186367d1f6c71824a?format=webp&width=800"
                 alt="App Preview 1"
                 className="w-52 h-auto object-contain rounded-[3.5rem]"
               />
