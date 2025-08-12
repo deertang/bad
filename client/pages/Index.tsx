@@ -93,7 +93,7 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
+      <section id="features" className="pt-32 pb-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-tinytype-brown mb-16">
             更多小伙伴
