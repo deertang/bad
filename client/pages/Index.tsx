@@ -176,7 +176,7 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F0c7db44b782b464bb97cd2591959e948?format=webp&width=800"
                 alt="App Preview 1"
-                className="w-52 h-auto object-contain rounded-2xl"
+                className="w-52 h-auto object-contain rounded-3xl"
               />
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
