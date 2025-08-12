@@ -22,9 +22,9 @@ export default function Index() {
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#features" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">���能</a>
+            <a href="#features" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">关于</a>
             <a href="#download" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">下载</a>
-            <a href="#contact" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联系</a>
+            <a href="#contact" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联��</a>
           </nav>
           <button
             className="md:hidden p-2 text-tinytype-brown"
