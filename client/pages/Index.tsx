@@ -173,13 +173,11 @@ export default function Index() {
               </ul>
             </div>
             <div className="flex justify-center">
-              <div className="w-64 h-[500px] bg-gradient-to-br from-tinytype-yellow-light to-tinytype-yellow rounded-lg shadow-2xl p-2 flex flex-col items-center justify-center">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
-                  alt="App Preview"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
+                alt="App Preview"
+                className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
+              />
             </div>
           </div>
         </div>
