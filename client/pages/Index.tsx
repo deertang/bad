@@ -10,8 +10,12 @@ export default function Index() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-tinytype-yellow/20">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-tinytype-yellow rounded-full flex items-center justify-center">
-              <span className="text-xl">🐾</span>
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F385b32e1c1924b24bc25088c83e3c55e?format=webp&width=800"
+                alt="tinytype logo"
+                className="w-10 h-10 object-contain"
+              />
             </div>
             <div>
               <h1 className="font-bold text-tinytype-brown text-lg">排版小动物</h1>
@@ -108,7 +112,7 @@ export default function Index() {
               </div>
               <h3 className="text-xl font-semibold text-tinytype-brown mb-4">温暖治愈</h3>
               <p className="text-tinytype-brown/70">
-                精心设计的界面和可爱的小动物元素，让每次使用都充满温暖
+                精心设计的界面和可爱的小动物元素，让每次使用都���满温暖
               </p>
             </div>
             <div className="text-center p-8 rounded-3xl bg-white shadow-sm hover:shadow-lg transition-shadow">
