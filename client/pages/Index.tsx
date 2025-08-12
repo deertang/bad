@@ -182,7 +182,7 @@ export default function Index() {
                 className="w-52 h-auto object-contain rounded-[3.5rem]"
               />
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fbd69fb272d0a49b5a0a9d4ce094978d4?format=webp&width=800"
                 alt="App Preview 3"
                 className="w-52 h-96 object-cover rounded-2xl"
               />
