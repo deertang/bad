@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-tinytype-cream via-background to-tinytype-yellow-light">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-tinytype-yellow/20">
+      <header className="sticky top-0 z-50 backdrop-blur-md border-b border-tinytype-yellow/20" style={{backgroundColor: 'rgba(255, 255, 245, 0.8)'}}>
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 flex items-center justify-center">
@@ -187,7 +187,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="border-t border-tinytype-brown/20 pt-8 text-center text-sm text-tinytype-brown/60 space-y-2">
             <div className="flex flex-wrap justify-center gap-6 mb-4">
-              <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">用户协议</a>
+              <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">用户��议</a>
               <span>|</span>
               <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">隐私政策</a>
               <span>|</span>
