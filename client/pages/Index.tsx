@@ -174,12 +174,12 @@ export default function Index() {
             </div>
             <div className="flex justify-center gap-6">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fcca80b0a9f70420fb7c904ca03c73fb5?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F95651b7594794fc5ad292e23645487ad?format=webp&width=800"
                 alt="App Preview 1"
                 className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
               />
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Faef432d6f7ec468e87cdd05bab2b43fa?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F5d42ae07693d4a1797625ea1e29b44b5?format=webp&width=800"
                 alt="App Preview 2"
                 className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
               />
