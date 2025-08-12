@@ -30,6 +30,34 @@ export default function Index() {
             <Menu className="w-6 h-6" />
           </button>
         </div>
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-tinytype-yellow/20">
+            <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
+              <a
+                href="#features"
+                className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                功能
+              </a>
+              <a
+                href="#download"
+                className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                下载
+              </a>
+              <a
+                href="#contact"
+                className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                联系
+              </a>
+            </nav>
+          </div>
+        )}
       </header>
 
       {/* Hero Section */}
