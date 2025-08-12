@@ -64,7 +64,7 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto text-center">
           <div className="mb-12">
             <div className="w-48 h-48 mx-auto bg-white rounded-3xl shadow-xl mb-8 flex items-center justify-center transform hover:scale-105 transition-transform p-4">
@@ -109,7 +109,7 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 bg-white/60">
+      <section id="features" className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-tinytype-brown mb-16">
             为什么选择排版小动物？
@@ -147,7 +147,7 @@ export default function Index() {
       </section>
 
       {/* App Preview Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -155,7 +155,7 @@ export default function Index() {
                 让创作变得有趣
               </h2>
               <p className="text-lg text-tinytype-brown/70 mb-8">
-                排版小动物提供丰富的模板和工具，帮助你快速创建专业级的排版作品。无论是海报、卡片还是社交媒体内容，都能轻松完成。
+                排版小动物提供丰富的模板和工具，帮助你快速创建专业级的排版作品。无论是海报、卡片还是社交媒体内容，都能轻松��成。
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
@@ -183,7 +183,7 @@ export default function Index() {
       </section>
 
       {/* Download Section */}
-      <section id="download" className="py-20 px-4 bg-tinytype-yellow/10">
+      <section id="download" className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-tinytype-brown mb-8">
             立即下载排版小动物
