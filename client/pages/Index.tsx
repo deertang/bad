@@ -155,6 +155,7 @@ export default function Index() {
                   <span className="text-tinytype-brown/80">一键保存分享</span>
                 </li>
               </ul>
+              <p className="text-tinytype-brown/80 mb-4 mt-6">开始你的小动物排版，每一次记录都温暖</p>
               <div className="mt-8">
                 <a
                   href="https://apps.apple.com"
@@ -201,7 +202,7 @@ export default function Index() {
               <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">隐私政策</a>
               <span>|</span>
               <a href="mailto:fb@tinytypezoo.com" className="hover:text-tinytype-yellow-dark transition-colors">
-                联系我们
+                联系��们
               </a>
               <span>|</span>
               <span>开若图科技（上海）有限公司</span>
