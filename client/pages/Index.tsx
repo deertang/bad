@@ -177,7 +177,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
                   alt="App Preview"
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
