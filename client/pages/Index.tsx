@@ -172,10 +172,20 @@ export default function Index() {
                 </li>
               </ul>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center gap-6">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F6b294b1d12e843b985d4c960c0ee647e?format=webp&width=800"
+                alt="App Preview 1"
+                className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
+              />
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Faef432d6f7ec468e87cdd05bab2b43fa?format=webp&width=800"
+                alt="App Preview 2"
+                className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
+              />
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
-                alt="App Preview"
+                alt="App Preview 3"
                 className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
               />
             </div>
