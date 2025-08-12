@@ -192,7 +192,7 @@ export default function Index() {
               <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">隐私政策</a>
               <span>|</span>
               <a href="mailto:fb@tinytypezoo.com" className="hover:text-tinytype-yellow-dark transition-colors">
-                联系��们
+                联系我们
               </a>
               <span>|</span>
               <span>开若图科技（上海）有限公司</span>
