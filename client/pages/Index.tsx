@@ -67,8 +67,12 @@ export default function Index() {
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
           <div className="mb-12">
-            <div className="w-48 h-48 mx-auto bg-gradient-to-br from-tinytype-yellow to-tinytype-yellow-dark rounded-3xl shadow-xl mb-8 flex items-center justify-center transform hover:scale-105 transition-transform">
-              <div className="text-8xl">🦔</div>
+            <div className="w-48 h-48 mx-auto bg-white rounded-3xl shadow-xl mb-8 flex items-center justify-center transform hover:scale-105 transition-transform p-4">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F47bb180e269c47b1917ecf870745f17c?format=webp&width=800"
+                alt="排版小动物工作场景"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-tinytype-brown mb-6">
@@ -78,7 +82,7 @@ export default function Index() {
             温暖治愈的排版工具
           </p>
           <p className="text-lg text-tinytype-brown/60 mb-12 max-w-2xl mx-auto">
-            让文字排版变得简单有趣，每一个设计都充满温暖与治愈感
+            让文字排版变得简单有趣，每一个设计都��满温暖与治愈感
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -120,7 +124,7 @@ export default function Index() {
               </div>
               <h3 className="text-xl font-semibold text-tinytype-brown mb-4">简单易用</h3>
               <p className="text-tinytype-brown/70">
-                直观的操作界面，无需复杂学习，轻松创造美丽��排版作品
+                直观的操作界面，无需复杂学习，轻松创造美丽的排版作品
               </p>
             </div>
             <div className="text-center p-8 rounded-3xl bg-white shadow-sm hover:shadow-lg transition-shadow">
