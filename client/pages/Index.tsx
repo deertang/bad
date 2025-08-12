@@ -75,14 +75,14 @@ export default function Index() {
               />
             </div>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-tinytype-brown mb-6">
+          <h1 className="text-3xl md:text-5xl font-bold text-tinytype-brown mb-6">
             排版小动物
           </h1>
           <p className="text-xl md:text-2xl text-tinytype-brown/80 mb-4">
             温暖治愈的排版工具
           </p>
           <p className="text-lg text-tinytype-brown/60 mb-12 max-w-2xl mx-auto">
-            让文字排版变得简单有趣，每一个设计都��满温暖与治愈感
+            让文字排版变得简单有趣，每一个设计都充满温暖与治愈感
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
