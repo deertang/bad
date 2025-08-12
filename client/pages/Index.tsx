@@ -176,7 +176,7 @@ export default function Index() {
             </div>
             <div className="flex justify-center gap-6">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fa9e2079bb8524a6186367d1f6c71824a?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F6a86f869416941efa0fc6c3ff0e17a19?format=webp&width=800"
                 alt="App Preview 1"
                 className="w-52 h-auto object-contain rounded-[3.5rem]"
               />
