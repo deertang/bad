@@ -84,7 +84,8 @@ export default function Index() {
             </a>
             <a
               href="#features"
-              className="inline-flex items-center justify-center px-8 py-4 bg-gray-100 hover:bg-gray-200 text-tinytype-brown font-semibold rounded-2xl transition-all shadow-sm hover:shadow-md"
+              className="inline-flex items-center justify-center px-8 py-4 text-tinytype-brown font-semibold rounded-2xl transition-all shadow-sm hover:shadow-md"
+              style={{backgroundColor: 'rgb(255, 255, 245)'}}
             >
               了解更多
             </a>
