@@ -1,6 +1,9 @@
-import { Download, Heart, Sparkles, Users } from "lucide-react";
+import { Download, Heart, Sparkles, Users, Menu } from "lucide-react";
+import { useState } from "react";
 
 export default function Index() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-tinytype-cream via-background to-tinytype-yellow-light">
       {/* Header */}
