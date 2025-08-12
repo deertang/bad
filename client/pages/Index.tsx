@@ -18,8 +18,7 @@ export default function Index() {
               />
             </div>
             <div>
-              <h1 className="font-bold text-tinytype-brown text-lg">排版小动物</h1>
-              <p className="text-xs text-tinytype-brown/60">tinytype</p>
+              <h1 className="font-bold text-tinytype-brown text-lg">排版小���物</h1>
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -112,7 +111,7 @@ export default function Index() {
               </div>
               <h3 className="text-xl font-semibold text-tinytype-brown mb-4">温暖治愈</h3>
               <p className="text-tinytype-brown/70">
-                精心设计的界面和可爱的小动物元素，让每次使用都���满温暖
+                精心设计的界面和可爱的小动物元素，让每次使用都充满温暖
               </p>
             </div>
             <div className="text-center p-8 rounded-3xl bg-white shadow-sm hover:shadow-lg transition-shadow">
