@@ -176,12 +176,12 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F95651b7594794fc5ad292e23645487ad?format=webp&width=800"
                 alt="App Preview 1"
-                className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
+                className="w-52 h-auto object-contain rounded-2xl shadow-2xl"
               />
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F5d42ae07693d4a1797625ea1e29b44b5?format=webp&width=800"
                 alt="App Preview 2"
-                className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
+                className="w-52 h-auto object-contain rounded-2xl shadow-2xl"
               />
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
