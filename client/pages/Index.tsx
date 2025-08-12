@@ -22,9 +22,7 @@ export default function Index() {
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#features" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">关于</a>
-            <a href="#download" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">下载</a>
-            <a href="#contact" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联系</a>
+            <a href="mailto:fb@tinytypezoo.com" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联系我们</a>
           </nav>
           <button
             className="md:hidden p-2 text-tinytype-brown"
@@ -38,25 +36,11 @@ export default function Index() {
           <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-tinytype-yellow/20">
             <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
               <a
-                href="#features"
+                href="mailto:fb@tinytypezoo.com"
                 className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                关于
-              </a>
-              <a
-                href="#download"
-                className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                下载
-              </a>
-              <a
-                href="#contact"
-                className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                联系
+                联系我们
               </a>
             </nav>
           </div>
