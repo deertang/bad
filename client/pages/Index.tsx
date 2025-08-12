@@ -17,8 +17,8 @@ export default function Index() {
                 className="w-10 h-10 object-contain"
               />
             </div>
-            <div>
-              <h1 className="font-bold text-tinytype-brown text-lg">排版小���物</h1>
+            <div className="flex items-center">
+              <h1 className="font-bold text-tinytype-brown text-lg">排版小动物</h1>
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -120,7 +120,7 @@ export default function Index() {
               </div>
               <h3 className="text-xl font-semibold text-tinytype-brown mb-4">简单易用</h3>
               <p className="text-tinytype-brown/70">
-                直观的操作界面，无需复杂学习，轻松创造美丽的排版作品
+                直观的操作界面，无需复杂学习，轻松创造美丽��排版作品
               </p>
             </div>
             <div className="text-center p-8 rounded-3xl bg-white shadow-sm hover:shadow-lg transition-shadow">
