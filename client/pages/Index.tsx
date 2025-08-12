@@ -112,7 +112,7 @@ export default function Index() {
       <section id="features" className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-tinytype-brown mb-16">
-            小伙伴陪着你
+            更多小伙伴
           </h2>
           <div className="grid grid-cols-4 gap-8">
             <div className="flex justify-center">
@@ -153,30 +153,32 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-tinytype-brown mb-6">
-                让创作变得有趣
+                温暖可爱的排版样式
               </h2>
               <p className="text-lg text-tinytype-brown/70 mb-8">
-                排版小动物提供丰富的模板和工具，帮助你快速创建专业级的排版作品。无论是海报、卡片还是社交媒体内容，都能轻松完成。
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80">多样化的模板库</span>
+                  <span className="text-tinytype-brown/80">全世界各地的小动物，带来有他们温度和风格模板</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80">智能排版建议</span>
+                  <span className="text-tinytype-brown/80">智能排版，按小动物和时间留存</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80">一键导出分享</span>
+                  <span className="text-tinytype-brown/80">一键保存分享</span>
                 </li>
               </ul>
             </div>
             <div className="flex justify-center">
-              <div className="w-64 h-[500px] bg-gradient-to-br from-tinytype-yellow-light to-tinytype-yellow rounded-[3rem] shadow-2xl p-8 flex flex-col items-center justify-center">
-                <div className="text-4xl mb-4">📱</div>
-                <p className="text-tinytype-brown font-medium text-center">应用截图预览</p>
+              <div className="w-64 h-[500px] bg-gradient-to-br from-tinytype-yellow-light to-tinytype-yellow rounded-lg shadow-2xl p-2 flex flex-col items-center justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fda57219dfa1f4d5ea88740cb18cb70be?format=webp&width=800"
+                  alt="App Preview"
+                  className="w-full h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>
@@ -187,10 +189,10 @@ export default function Index() {
       <section id="download" className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-tinytype-brown mb-8">
-            立即下载排版小动物
+            tinytype 排版小动物
           </h2>
           <p className="text-lg text-tinytype-brown/70 mb-12 max-w-2xl mx-auto">
-            开始你的创意排版之旅，让每一个作品都充满温暖与治愈感
+            开始你的小动物排版，每一次记录都有淡淡的温暖
           </p>
           <div className="flex justify-center">
             <a 
