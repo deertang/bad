@@ -82,7 +82,7 @@ export default function Index() {
               </span>
               <br />
               <p style={{color: 'rgba(55, 52, 47, 0.8)', fontSize: '24px'}}>
-                一群温暖的陪你记录生活的小动物
+                一群温暖的陪你记录生��的小动物
               </p>
             </h6>
           </h1>
@@ -174,7 +174,7 @@ export default function Index() {
             </div>
             <div className="flex justify-center gap-6">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F6b294b1d12e843b985d4c960c0ee647e?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fcca80b0a9f70420fb7c904ca03c73fb5?format=webp&width=800"
                 alt="App Preview 1"
                 className="w-52 h-96 object-cover rounded-2xl shadow-2xl"
               />
