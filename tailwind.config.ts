@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        tinytype: {
+          yellow: "hsl(var(--warm-yellow))",
+          "yellow-light": "hsl(var(--warm-yellow-light))",
+          "yellow-dark": "hsl(var(--warm-yellow-dark))",
+          cream: "hsl(var(--cream))",
+          orange: "hsl(var(--soft-orange))",
+          brown: "hsl(var(--gentle-brown))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
