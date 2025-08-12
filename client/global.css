@@ -39,6 +39,14 @@
 
     --radius: 1rem;
 
+    /* Tinytype brand colors */
+    --warm-yellow: 45 100% 65%;
+    --warm-yellow-light: 51 100% 85%;
+    --warm-yellow-dark: 42 100% 55%;
+    --cream: 51 60% 95%;
+    --soft-orange: 35 95% 70%;
+    --gentle-brown: 40 8% 20%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
