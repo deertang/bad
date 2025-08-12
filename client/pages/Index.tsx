@@ -24,7 +24,7 @@ export default function Index() {
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#features" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">关于</a>
             <a href="#download" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">下载</a>
-            <a href="#contact" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联��</a>
+            <a href="#contact" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联系</a>
           </nav>
           <button
             className="md:hidden p-2 text-tinytype-brown"
@@ -42,7 +42,7 @@ export default function Index() {
                 className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                功能
+                关于
               </a>
               <a
                 href="#download"
