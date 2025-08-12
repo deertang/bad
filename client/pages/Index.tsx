@@ -88,7 +88,7 @@ export default function Index() {
           </h1>
           <p className="text-lg text-tinytype-brown/60 mb-12 max-w-2xl mx-auto">
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
               href="#download"
               className="inline-flex items-center justify-center px-8 py-4 bg-black hover:bg-gray-800 text-white font-semibold rounded-2xl transition-all transform hover:scale-105 shadow-lg"
@@ -98,9 +98,9 @@ export default function Index() {
               </svg>
               立即下载
             </a>
-            <a 
-              href="#features" 
-              className="inline-flex items-center justify-center px-8 py-4 border-2 border-tinytype-yellow text-tinytype-brown font-semibold rounded-2xl hover:bg-tinytype-yellow hover:bg-opacity-20 transition-all"
+            <a
+              href="#features"
+              className="inline-flex items-center justify-center px-8 py-4 bg-gray-100 hover:bg-gray-200 text-tinytype-brown font-semibold rounded-2xl transition-all shadow-sm hover:shadow-md"
             >
               了解更多
             </a>
