@@ -112,35 +112,36 @@ export default function Index() {
       <section id="features" className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-tinytype-brown mb-16">
-            为什么选择排版小动物？
+            小伙伴陪着你
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 rounded-3xl bg-white shadow-sm hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-tinytype-yellow rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <Heart className="w-8 h-8 text-tinytype-brown" />
-              </div>
-              <h3 className="text-xl font-semibold text-tinytype-brown mb-4">温暖治愈</h3>
-              <p className="text-tinytype-brown/70">
-                精心设计的界面和可爱的小动物元素，让每次使用都充满温暖
-              </p>
+          <div className="grid grid-cols-4 gap-8">
+            <div className="flex justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F6f18905c70cc49b089348b75a6b02c93?format=webp&width=800"
+                alt="小伙伴1"
+                className="w-full h-auto object-contain"
+              />
             </div>
-            <div className="text-center p-8 rounded-3xl bg-white shadow-sm hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-tinytype-orange rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <Sparkles className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-tinytype-brown mb-4">简单易用</h3>
-              <p className="text-tinytype-brown/70">
-                直观的操作界面，无需复杂学习，轻松创造美丽的排版作品
-              </p>
+            <div className="flex justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2F91daef2abf174b01927a04cf678c172a?format=webp&width=800"
+                alt="小伙伴2"
+                className="w-full h-auto object-contain"
+              />
             </div>
-            <div className="text-center p-8 rounded-3xl bg-white shadow-sm hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-tinytype-yellow-dark rounded-2xl flex items-center justify-center mx-auto mb-6">
-                <Users className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-tinytype-brown mb-4">社区分享</h3>
-              <p className="text-tinytype-brown/70">
-                与其他用户分享你的创作，发现更多灵感和创意
-              </p>
+            <div className="flex justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fd7e255de37834144b4823c6a06fd06ad?format=webp&width=800"
+                alt="小伙伴3"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fa0073f09e15d461786c587802ed2fbed?format=webp&width=800"
+                alt="小伙伴4"
+                className="w-full h-auto object-contain"
+              />
             </div>
           </div>
         </div>
