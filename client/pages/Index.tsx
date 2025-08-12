@@ -23,6 +23,12 @@ export default function Index() {
             <a href="#download" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">下载</a>
             <a href="#contact" className="text-tinytype-brown hover:text-tinytype-yellow-dark transition-colors">联系</a>
           </nav>
+          <button
+            className="md:hidden p-2 text-tinytype-brown"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            <Menu className="w-6 h-6" />
+          </button>
         </div>
       </header>
 
