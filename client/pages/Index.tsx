@@ -82,7 +82,7 @@ export default function Index() {
               </span>
               <br />
               <p style={{color: 'rgba(55, 52, 47, 0.8)', fontSize: '24px'}}>
-                一群温暖的陪你记录生��的小动物
+                一群温暖的陪你记录生活的小动物
               </p>
             </h6>
           </h1>
