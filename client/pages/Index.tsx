@@ -150,7 +150,7 @@ export default function Index() {
       {/* App Preview Section */}
       <section className="py-20 px-4" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-6 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-tinytype-brown mb-6">
                 温暖可爱的排版样式
