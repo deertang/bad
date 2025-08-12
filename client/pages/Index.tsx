@@ -77,17 +77,16 @@ export default function Index() {
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-tinytype-brown mb-6">
             <h6>
-              tinytype <br />
-              <p></p>
+              <span>
+                <h5>tinytype 排版小动物</h5>
+              </span>
+              <br />
+              <p style={{color: 'rgba(55, 52, 47, 0.8)', fontSize: '24px'}}>
+                一群温暖的陪你记录生活的小动物
+              </p>
             </h6>
           </h1>
-          <p className="text-xl md:text-2xl text-tinytype-brown/80 mb-4">
-            一群温暖的陪你记录生活的小动物
-          </p>
           <p className="text-lg text-tinytype-brown/60 mb-12 max-w-2xl mx-auto">
-            <span style={{color: 'rgba(55, 52, 47, 0.8)', fontSize: '24px'}}>
-              一群温暖的陪你记录生活的小动物
-            </span>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -214,34 +213,22 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer id="contact" className="bg-tinytype-brown text-white py-16 px-4">
+      <footer id="contact" className="text-white px-4 pb-16" style={{backgroundColor: 'rgb(255, 250, 196)'}}>
         <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <div className="flex items-center justify-center space-x-3 mb-4">
-              <div className="w-8 h-8 bg-tinytype-yellow rounded-full flex items-center justify-center">
-                <span className="text-lg">🐾</span>
-              </div>
-              <span className="font-bold text-xl">排版小动物</span>
-            </div>
-            <p className="text-white/70">让文字排版变得简单有趣</p>
-          </div>
-          
-          <div className="border-t border-white/20 pt-8 text-center text-sm text-white/60 space-y-2">
+          <div className="border-t border-tinytype-brown/20 pt-8 text-center text-sm text-tinytype-brown/60 space-y-2">
             <div className="flex flex-wrap justify-center gap-6 mb-4">
-              <a href="#" className="hover:text-tinytype-yellow transition-colors">用户协议</a>
+              <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">用户协议</a>
               <span>|</span>
-              <a href="#" className="hover:text-tinytype-yellow transition-colors">隐私政策</a>
+              <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">隐私政策</a>
               <span>|</span>
-              <a href="mailto:fb@tinytypezoo.com" className="hover:text-tinytype-yellow transition-colors">
+              <a href="mailto:fb@tinytypezoo.com" className="hover:text-tinytype-yellow-dark transition-colors">
                 联系我们
               </a>
+              <span>|</span>
+              <span>开若图科技（上海）有限公司</span>
+              <span>|</span>
+              <span>沪ICP备2025136576号</span>
             </div>
-            <p>
-              开若图科技（上海）有限公司&nbsp;&nbsp;
-              <br />
-              沪ICP备2025136576号
-            </p>
-            <p></p>
           </div>
         </div>
       </footer>
