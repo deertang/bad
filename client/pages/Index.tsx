@@ -138,7 +138,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-6 items-start">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-tinytype-brown mb-6">
-                温暖可爱��排版样式
+                温暖可爱的排版样式
               </h2>
               <p className="text-lg text-tinytype-brown/70 mb-8">
               </p>
