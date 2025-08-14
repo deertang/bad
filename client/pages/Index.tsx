@@ -145,15 +145,15 @@ export default function Index() {
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80">全世界各地的小动物，带来有他们温度和风格模板</span>
+                  <span className="text-tinytype-brown/80 text-xl">全世界各地的小动物，带来有他们温度和风格模板</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80">智能排版，按小动物和时间留存</span>
+                  <span className="text-tinytype-brown/80 text-xl">智能排版，按小动物和时间留存</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80">一键保存分享</span>
+                  <span className="text-tinytype-brown/80 text-xl">一键保存分享</span>
                 </li>
               </ul>
               <div className="mt-8">
