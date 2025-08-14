@@ -138,22 +138,22 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-6 items-start">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-tinytype-brown mb-6">
-                温暖可爱的排版样式
+                温暖可爱��排版样式
               </h2>
               <p className="text-lg text-tinytype-brown/70 mb-8">
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80 text-xl">全世界各地的小动物，带来有他们温度和风格模板</span>
+                  <span className="text-tinytype-brown/80 text-xl leading-relaxed">全世界各地的小动物，带来有他们温度和风格模板</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80 text-xl">智能排版，按小动物和时间留存</span>
+                  <span className="text-tinytype-brown/80 text-xl leading-relaxed">智能排版，按小动物和时间留存</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-tinytype-yellow rounded-full mr-3"></div>
-                  <span className="text-tinytype-brown/80 text-xl">一键保存分享</span>
+                  <span className="text-tinytype-brown/80 text-xl leading-relaxed">一键保存分享</span>
                 </li>
               </ul>
               <div className="mt-8">
