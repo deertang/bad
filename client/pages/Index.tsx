@@ -117,7 +117,7 @@ export default function Index() {
             <div className="flex justify-center">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc3bf88e946e64f46946c0306e319a815%2Fd7e255de37834144b4823c6a06fd06ad?format=webp&width=800"
-                alt="小伙伴3"
+                alt="小伙���3"
                 className="w-full h-auto object-contain"
               />
             </div>
@@ -187,9 +187,9 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="border-t border-tinytype-brown/20 pt-8 text-center text-sm text-tinytype-brown/60 space-y-2">
             <div className="flex flex-wrap justify-center gap-6 mb-4">
-              <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">用户协议</a>
+              <a href="http://tinytypezoo.com/terms-of-service" className="hover:text-tinytype-yellow-dark transition-colors">用户协议</a>
               <span>|</span>
-              <a href="#" className="hover:text-tinytype-yellow-dark transition-colors">隐私政策</a>
+              <a href="http://tinytypezoo.com/privacy-policy" className="hover:text-tinytype-yellow-dark transition-colors">隐私政策</a>
               <span>|</span>
               <a href="mailto:fb@tinytypezoo.com" className="hover:text-tinytype-yellow-dark transition-colors">
                 联系我们
